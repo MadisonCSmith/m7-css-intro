@@ -6,11 +6,44 @@ img {
 
 /* Relative position: https://csstricks.com/absolutepositioninginsiderelativepositioning/ */
 
+
 #container {
-    display: inlineblock;
+    display: inline-block;
     width: 50%;
     position: relative;
 }
 
 
 /* Assign styles here */
+ .whole {
+	position: absolute;
+	color: white;
+	font-size: 1.5em;
+}
+
+
+.top {
+	top: 5px;		
+}
+
+.vertical-center {
+	top: 50%;
+}
+
+.bottom {
+	bottom: 5px;
+}
+
+.left {
+	left: 5px;
+}
+
+.horizontal-center {
+	text-align: center;
+	width:100%;
+}
+
+.right {
+	right: 5px;
+}
+

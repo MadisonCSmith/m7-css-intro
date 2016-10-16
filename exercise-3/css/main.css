@@ -1,0 +1,44 @@
+#header {
+	position: fixed;
+	background: grey;
+	left: 0px;
+	right: 0px;
+	height: 75px;
+	padding: 20px;
+	z-index: 1;
+}
+
+body {
+	margin: 0px;
+}
+
+h2 {
+	color: white;
+}
+
+#title {
+	float: left;
+}
+
+#course {
+	float: right;
+}
+
+.cat-row {
+	z-index: 0;
+	position: relative;
+	top: 115px;
+	text-align: center;
+	width: 50%;
+	height: auto;
+	background-color: pink;
+	border-radius: 5px;
+	left: 25%;
+}
+
+.cat {
+	text-align: center;
+	width: 50%;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
